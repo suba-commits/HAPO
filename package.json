@@ -1,0 +1,19 @@
+{
+  "name": "hapo",
+  "version": "1.0.0",
+  "description": "HAPO - Habit Tracker and Performance Enhancer",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev": "echo 'Open two terminals: 1) npm run start:backend 2) npm run start:frontend'"
+  },
+  "keywords": ["habit-tracker", "performance", "productivity"],
+  "author": "",
+  "license": "ISC"
+}
